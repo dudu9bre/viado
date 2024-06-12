@@ -10,14 +10,111 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #302071;
+    background-image: radial-gradient(
+      ellipse at top,
+      transparent 0%,
+      black
+    ),
+    radial-gradient(
+      ellipse at bottom,
+      black,
+      rgba(127, 97, 246, .2)
+    ),
+    repeating-linear-gradient(
+      220deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      189deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      148deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    linear-gradient(90deg, #7f61f6, rgb(240, 240, 240));
+    background-size: cover;
     transition: all .5s ease;
 }
 .scrolled {
-    background-color: #020203;
+    background-image: radial-gradient(
+      ellipse at top,
+      transparent 0%,
+      black
+    ),
+    radial-gradient(
+      ellipse at bottom,
+      black,
+      rgba(127, 97, 246, .2)
+    ),
+    repeating-linear-gradient(
+      220deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      189deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      148deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    linear-gradient(90deg, #7f61f6, rgb(240, 240, 240));
+    background-size: cover;
 }
 .gr {
-    background-image: linear-gradient(to bottom, #020203, #0F1719);
+    background-image: radial-gradient(
+      ellipse at top,
+      transparent 0%,
+      black
+    ),
+    radial-gradient(
+      ellipse at bottom,
+      black,
+      rgba(127, 97, 246, .2)
+    ),
+    repeating-linear-gradient(
+      220deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      189deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      148deg,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    linear-gradient(90deg, #7f61f6, rgb(240, 240, 240));
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 270px;
     border-bottom: 10px solid 020203;
 }
