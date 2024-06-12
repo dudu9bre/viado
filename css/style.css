@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fae1dd;
+    background-color: #7755FC;
     transition: all .5s ease;
 }
 .scrolled {
