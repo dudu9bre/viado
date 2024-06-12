@@ -45,41 +45,6 @@ body {
     background-size: cover;
     transition: all .5s ease;
 }
-.scrolled {
-    background-image: radial-gradient(
-      ellipse at top,
-      transparent 0%,
-      black
-    ),
-    radial-gradient(
-      ellipse at bottom,
-      black,
-      rgba(127, 97, 246, .2)
-    ),
-    repeating-linear-gradient(
-      220deg,
-      rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 19px,
-      transparent 19px,
-      transparent 22px
-    ),
-    repeating-linear-gradient(
-      189deg,
-      rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 19px,
-      transparent 19px,
-      transparent 22px
-    ),
-    repeating-linear-gradient(
-      148deg,
-      rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 19px,
-      transparent 19px,
-      transparent 22px
-    ),
-    linear-gradient(90deg, #7f61f6, rgb(240, 240, 240));
-    background-size: cover;
-}
 .gr {
     background-image: radial-gradient(
       ellipse at top,
@@ -346,6 +311,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     width: 500px;
+    transition: all .3s ease;
 }
 .cont3 {
     top: 1900px;
