@@ -275,6 +275,13 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 700px) {
+    .msg {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
 /* iframe */
 
 iframe {
